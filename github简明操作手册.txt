@@ -23,6 +23,9 @@ git commit -m "test_txt"
 git push
 greenwonder/freeskywfs7
 
+git checkout -f v1.0
+git fetch
+
 ÇÐµ½image·ÖÖ§ºó£¬Ö´ÐÐ
 git rebase master
 git push
