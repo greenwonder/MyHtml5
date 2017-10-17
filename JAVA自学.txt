@@ -1,0 +1,39 @@
+JAVA自学
+
+一、电子书：
+1、从零开始学Java_Web开发
+2、《疯狂Java讲义(第3版)》.(李刚).[PDF]@jb51.net
+3、JAVA WEB典型模块与项目实战大全(jb51.net)(、P766）
+（P676：投票管理系统
+  P731：权限管理系统
+  P178: 验证模块、
+  P223：网站统计模块、
+  P243：网络购物车、
+  P317：网络留言板
+  P412：网上投票系统、
+  P429：商业银行网上账户管理系统
+  P464：Hibernate分页系统）
+4、[亮剑Java项目开发案例导航].王寅乐.扫描版(P402)
+5、看透springMvc源代码分析与实践
+6、Maven实战(jb51.net)
+7、轻量级JAVAEE企业应用实战
+8、Java.Web整合开发王者归来  (P946)
+9、SPRING 实战（第3版）
+
+二、视频
+1、尚硅谷JavaEE视频之Struts2（上）  https://ke.qq.com/course/26883
+2、尚硅谷JavaEE视频之Struts2（下）  https://ke.qq.com/course/26885
+3、尚硅谷Hibernate4  https://ke.qq.com/course/27009
+4、尚硅谷Spring4.0（上）https://ke.qq.com/course/27346
+5、尚硅谷Spring4.0（下）https://ke.qq.com/course/27350
+6、尚硅谷Java视频_SSH整合与综合案例  https://ke.qq.com/course/27919
+7、尚硅谷JavaWEB（上）  https://ke.qq.com/course/26640
+8、尚硅谷JavaWEB（中）  https://ke.qq.com/course/26692
+9、尚硅谷JavaWEB（下）  https://ke.qq.com/course/26826
+10、尚硅谷Javaweb实战_书城项目案例  https://ke.qq.com/course/26879
+
+11、动力节点-JavaEE培训-老司机带你学系列-SSH框架前言  https://ke.qq.com/course/155879
+12、动力节点-JavaEE培训-老司机带你学系列-Struts2入门到精通-SSH  https://ke.qq.com/course/168860
+13、动力节点-JavaEE培训-老司机带你学系列-Hibernate入门到精通-SSH  https://ke.qq.com/course/166780
+
+14、Java微信二次开发从基础到项目实战【融通学院】  https://ke.qq.com/course/85959
