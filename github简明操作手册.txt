@@ -17,6 +17,7 @@ git push
 greenwonder/freeskywfs7
 
 切到image分支后，执行
+git rebase master
 git push
 
 
