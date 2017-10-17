@@ -1,0 +1,28 @@
+http://10.2.75.224:8080/icescrum/p/MYCTRIP/#/feature/6
+
+
+https://github.com/
+greenwonder/greenwonder@163.com/freeskywfs7
+https://github.com/greenwonder/MyHtml5
+
+git clone https://github.com/greenwonder/MyHtml5
+cd MyHtml5
+ls
+git status
+git add -A
+git config --global user.email "greenwonder@163.com"
+git config --global user.name "greenwonder"
+git commit -m "test_txt"
+git push
+greenwonder/freeskywfs7
+
+切到image分支后，执行
+git push
+
+
+
+
+
+
+https://coding.net/user
+greenwonder/greenwonder@163.com/freeskywfs7
