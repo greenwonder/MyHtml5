@@ -19,8 +19,11 @@ cd MyHtml5
 ls
 git status
 git add -A
+
 git config --global user.email "greenwonder@163.com"
 git config --global user.name "greenwonder"
+git config --list
+
 git commit -m "test_txt"
 git push
 greenwonder/freeskywfs7
@@ -36,7 +39,6 @@ git push origin --tags
 $ git push origin v1.5
 
 
-ÇÐµ½image·ÖÖ§ºó£¬Ö´ÐÐ
 git rebase master
 git push
 
