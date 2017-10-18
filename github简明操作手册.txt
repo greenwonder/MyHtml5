@@ -42,6 +42,13 @@ $ git push origin v1.5
 git rebase master
 git push
 
+gitk
+
+
+git reset HEAD benchmarks.rb
+
+
+--remote repository
 
 
 
