@@ -33,6 +33,8 @@ git checkout -f v1.0
 git tag
 git show v1.0
 $ git tag -l 'v1.4.2.*'
+git tag -a v0.10 -m 'My First Tag'
+
 
 $ git tag -a v1.4 -m 'my version 1.4'
 git push origin --tags
@@ -49,7 +51,10 @@ git reset HEAD benchmarks.rb
 
 
 --remote repository
-
+git remote -v
+git remote show origin
+git remote rename remote_rep_test rrtest
+git remote rm rrtest
 
 
 
