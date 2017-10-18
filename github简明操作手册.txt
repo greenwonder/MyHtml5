@@ -1,3 +1,5 @@
+﻿http://blog.csdn.net/wh_19910525/article/details/7470850
+
 http://www.ruanyifeng.com/blog/2012/07/git.html
 http://blog.csdn.net/javaandroid730/article/details/53522872
 http://blog.csdn.net/qq_23205911/article/details/59483001
@@ -23,8 +25,16 @@ git commit -m "test_txt"
 git push
 greenwonder/freeskywfs7
 
-git checkout -f v1.0
 git fetch
+git checkout -f v1.0
+git tag
+git show v1.0
+$ git tag -l 'v1.4.2.*'
+
+$ git tag -a v1.4 -m 'my version 1.4'
+git push origin --tags
+$ git push origin v1.5
+
 
 ÇÐµ½image·ÖÖ§ºó£¬Ö´ÐÐ
 git rebase master
