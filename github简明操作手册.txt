@@ -34,6 +34,8 @@ git tag
 git show v1.0
 $ git tag -l 'v1.4.2.*'
 git tag -a v0.10 -m 'My First Tag'
+git push origin v0.10
+git push origin --tags
 
 
 $ git tag -a v1.4 -m 'my version 1.4'
@@ -56,8 +58,24 @@ git remote show origin
 git remote rename remote_rep_test rrtest
 git remote rm rrtest
 
+--branch
+git checkout -b iss53
+git checkout master
+git checkout -b 'hotfix'
+--modify&commit
+git checkout master
+git merge hotfix
+git branch -d hotfix
+git checkout iss53
+(--or git merge master)
+--modify&commit
+git checkout master
+git merge iss53
+git branch -d iss53
 
-
+--merge conflict(tow branch modify same place)
+git status
+git mergetool
 
 https://coding.net/user
 greenwonder/greenwonder@163.com/freeskywfs7
