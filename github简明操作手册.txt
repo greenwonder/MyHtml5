@@ -1,4 +1,16 @@
-﻿http://blog.csdn.net/wh_19910525/article/details/7470850
+http://blog.jobbole.com/25775/
+http://blog.jobbole.com/25808/
+http://blog.jobbole.com/25877/
+http://blog.jobbole.com/25944/
+http://blog.jobbole.com/25660/
+http://blog.jobbole.com/26112/
+http://blog.jobbole.com/26131/
+http://blog.jobbole.com/26198/
+http://blog.jobbole.com/26209/
+ 
+ 
+ 
+ http://blog.csdn.net/wh_19910525/article/details/7470850
 
 http://www.ruanyifeng.com/blog/2012/07/git.html
 http://blog.csdn.net/javaandroid730/article/details/53522872
