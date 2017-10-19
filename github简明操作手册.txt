@@ -58,7 +58,7 @@ git remote show origin
 git remote rename remote_rep_test rrtest
 git remote rm rrtest
 
---branch
+--branch(local)
 git checkout -b iss53
 git checkout master
 git checkout -b 'hotfix'
@@ -76,6 +76,63 @@ git branch -d iss53
 --merge conflict(tow branch modify same place)
 git status
 git mergetool
+
+--manager branch(local)
+git branch
+git branch -v
+git branch --merged
+git branch --no-merged
+
+
+--developer workflow of branch(local)
+
+--remote branch
+git fetch origin
+
+git remote add teamone git://git.team1.ourcompany.com
+git fetch teamone
+
+
+--push local branch to remote branch
+git push origin serverfix(:awesomebranch)
+
+--download remote branch
+git fetch origin
+-merge into current branch
+git merge origin/serverfix
+-create new branch
+git checkout -b serverfix origin/serverfix
+-track remote branch
+git checkout --track origin/serverfix
+
+
+--rebase branch(Important Note:for private not for public)
+git checkout experiment
+-modify
+git checkout master
+-modify
+git checkout experiment
+git rebase master
+git checkout master
+git merge experiment
+
+git checkout server
+-modify
+git checkout client
+-modify
+git checkout master
+-modify
+git checkout client
+git rebase --onto master server client
+git checkout master
+git merge client
+git rebase master server
+(git checkout master)
+git merge server
+git branch -d client
+git branch -d server
+
+
 
 https://coding.net/user
 greenwonder/greenwonder@163.com/freeskywfs7
