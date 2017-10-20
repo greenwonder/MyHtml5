@@ -70,6 +70,12 @@ git remote show origin
 git remote rename remote_rep_test rrtest
 git remote rm rrtest
 
+-change remote repository
+git remote rm origin
+git remote add test_v0.140 https://github.com/greenwonder/Test.git
+git pull test_v0.140
+ 
+
 
 mkdir bless
 cd bless
