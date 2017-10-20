@@ -70,6 +70,20 @@ git remote show origin
 git remote rename remote_rep_test rrtest
 git remote rm rrtest
 
+
+mkdir bless
+cd bless
+pwd
+git init
+**git remote add origin https://github.com/greenwonder/Test.git
+(git reset FETCH_HEAD)
+git pull origin master
+-modify blesswall
+git add .
+git commit -m "blesswall"
+git push -u origin master
+
+
 --branch(local)
 git checkout -b iss53
 git checkout master
